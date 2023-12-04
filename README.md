@@ -43,4 +43,12 @@ Commands:
   new <day>            Create a new day
 ```
 
+Examples:
+
+```sh
+./advent 3 <-- runs day 3 part 1
+./advent -p 2 3 <-- runs day 3 part 2
+./advent new 4 <-- generates day 4 directory
+```
+
 Then add code to part1 and part2, and add the example data into the `example.txt` and your puzzleInput into the `puzzleInput.txt` for the day.
