@@ -6,6 +6,15 @@ This repository contains solutions for the Advent of Code 2023 puzzles, written 
 
 The `dayX` directory is a template for each day's puzzle. When a new day is generated, a new directory is created based on this template. Each generated directory contains two TypeScript files (`part1.ts` and `part2.ts`) for the two parts of the day's puzzle.
 
+## Dependencies
+
+This project uses the following main dependencies:
+
+- TypeScript
+- Bun
+- Commander.js
+- Chalk
+
 ## Project Setup
 
 1. Clone the repository
@@ -34,11 +43,4 @@ Commands:
   new <day>            Create a new day
 ```
 
-## Dependencies
-
-This project uses the following main dependencies:
-
-- TypeScript
-- Bun
-- Commander.js
-- Chalk
+Then add code to part1 and part2, and add the example data into the `example.txt` and your puzzleInput into the `puzzleInput.txt` for the day.
