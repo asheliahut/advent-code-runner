@@ -1,0 +1,23 @@
+{
+  "name": "advent-code-runner",
+  "module": "index.ts",
+  "type": "module",
+  "license": "the unlicense",
+  "scripts": {
+    "build": "bun build ./index.ts --compile --outfile=advent",
+    "build:clean": "rm ./advent && bun run build",
+    "fmt": "prettier --write ."
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "prettier": "^2.8.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@commander-js/extra-typings": "^11.1.0",
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0"
+  }
+}
