@@ -1,4 +1,4 @@
-# Advent of Code 2023
+# Advent of Code Runner
 
 This repository contains solutions for the Advent of Code 2023 puzzles, written in TypeScript. The application will not run under windows unless using WSL.
 
