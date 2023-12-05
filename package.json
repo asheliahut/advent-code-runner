@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "bun-types": "latest",
-    "prettier": "^2.8.1"
+    "prettier": "^3.1.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
